@@ -5,6 +5,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="css/lightbox.css" media="screen">
     <title>Ronando Long Intro: Code Review 01</title>
   </head>
 
@@ -72,7 +73,7 @@
         </div>
       </div>
 
-  <!-- ROW 3 -->
+  <!-- ROW 3 ------------------------------------------------------>
       <div class="row">
         <div class="col-sm-4 box box-row3a">
           <a href="http://ronandol.github.io/1M-JQ-Apartments-2/" target="_blank">
@@ -90,11 +91,11 @@
         </div>
       </div>
 
-  <!-- ABOUT ME -->
+  <!-- ABOUT ME ------------------------------------------------------>
       <div class="row">
         <div class="col-xs-12 center dark">
           <h4>a b o u t m e</h4>
-          <p>books i&#8217;ve recently read, in order</p>
+          <p>books i&#8217;ve recently read, (in order)</p>
         </div>
       </div>
 
@@ -105,25 +106,38 @@
       <div class="modal-content"> <!-- gives modal gives bg color, borders, shadow -->
 
         <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>  <!-- X close modal -->
         </div>
+
         <div class="modal-body">
+          <img src="images/01-around-world.jpg" alt="" /> <!-- Open image in modal -->
         </div>
+
       </div>
-    </div>
-  </div>
+    </div> <!-- /modal-dialogue -->
+  </div> <!-- /modal -->
 
       <div class="row">
         <div class="col-sm-12">
 
           <div class="book book1 float-l">
-            <img src="images/01-around-world.jpg" alt="" />
-            <!-- <p>Around the World in 80 Days</p> -->
+            <a href="images/books/01-around-world.jpg" data-title="Around The World In 80 Friggin' Days!" data-lightbox="Book"> <!-- every image with data-lightbox of "Book" will be in the same carasoul of pics -->
+              <img src="images/books/01-around-world.jpg" alt="Around The World in 80 Days, by Jules Verne" />  <!-- Can use Bootstrap classes: img-thumbnail, -round, -circle -->
+            </a>
           </div>
 
           <div class="book book2 float-l">
+            <a href="images/books/02-orcs.jpg" data-title="Orcs!" data-lightbox="Book">
+              <img src="images/books/02-orcs.jpg" alt="Orcs, by Stan Nicholls" />
+            </a>
           </div>
+
           <div class="book book3 float-l">
+            <a href="images/books/03-islam.jpg" data-title="Islam" data-lightbox="Book">
+              <img src="images/books/03-islam.jpg" alt="Islam: The Future of Tolerance by Sam Harris and Maajid Nawaz" />
+            </a>
           </div>
+
           <div class="book book4 float-l">
           </div>
           <div class="book book5 float-l">
@@ -166,5 +180,15 @@
       </div>
 
     </div>   <!-- /container -->
+  <!-- Google JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Bootstrap JS File -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="js/lightbox.js"></script>
+
+
+
   </body>
 </html>
