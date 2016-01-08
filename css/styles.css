@@ -66,6 +66,11 @@ visibility: visible;
   height: 100%;
 }
 
+.pic-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* ROW ONE */
 .box-row1a {
   background-color: #80abff;
@@ -119,7 +124,7 @@ visibility: visible;
   height: 270px;
 }
 
-/* BOOKS */
+/*-- BOOKS --*/
 .book {
   width: 130px;
 }
@@ -241,6 +246,35 @@ visibility: visible;
   float: left;
   height: 190px;
 }
+
+/*-- PICS --*/
+
+.pics {
+  margin: 10px 0
+}
+
+.pic img {
+  /*display: block;*/
+  vertical-align: middle;
+  margin: 5px;
+  max-width: 90%;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
