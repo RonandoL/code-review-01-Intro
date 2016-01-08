@@ -1,0 +1,213 @@
+div {
+  border: 1px solid gray;
+}
+
+.other-color {
+  background-color: white;
+}
+
+.jumbotron .container {
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+.massive h1 {
+  color: #001a4d  ;
+  font-size: 13em;
+  margin-top: 300px;
+}
+
+.center {
+  text-align: center;
+}
+
+.dark {
+  background-color: #001a4d;
+  color: #e5eeff;
+}
+
+.center h4 {
+  font-size: 2em;
+}
+
+/* ROW ONE */
+.box-row1a {
+  background-color: #80abff;
+  height: 350px;
+}
+
+.box-row1b {
+  background-color: #e5e600;
+  height: 190px;
+}
+
+.box-row1c {
+  background-color: #ff751a;
+  height: 190px;
+}
+
+/* ROW TWO */
+.box-row2a {
+  background-color: #00cc44;
+  height: 310px;
+}
+
+.box-row2b {
+  background-color: #e60073;
+  height: 310px;
+}
+
+.box-row2c {
+  background-color: #6666ff;
+  height: 155px;
+}
+
+.box-row2d {
+  background-color: #00b300;
+  height: 155px;
+}
+
+/* ROW THREE */
+.box-row3a {
+  background-color: #59b300;
+  height: 270px;
+}
+
+.box-row3b {
+  background-color: #0099e6;
+  height: 270px;
+}
+
+.box-row3c {
+  background-color: #e67300;
+  height: 270px;
+}
+
+/* BOOKS */
+.book {
+  width: 130px;
+}
+
+.book img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.book1 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book2 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book3 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book4 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book5 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book6 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book7 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book8 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book9 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book10 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book11 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book12 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book13 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book14 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book15 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book16 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book17 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+.book18 {
+  background-color: #ffd9b3;
+  float: left;
+  height: 190px;
+}
+
+
+
+
+/**/
