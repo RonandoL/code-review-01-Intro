@@ -1,21 +1,20 @@
-/*div {
-  border: 1px solid gray;
-}*/
-
-.other-color {
+.bg-white {
   background-color: white;
 }
 
 .jumbotron .container {
   padding-right: 0;
   padding-left: 0;
-
 }
 
 .massive h1 {
-  color: #001a4d  ;
+  color: #001a4d ;
   font-size: 13em;
-  margin-top: 300px;
+  margin-top: 450px;
+}
+
+footer {
+  margin-bottom: 75px;
 }
 
 .center {
@@ -38,6 +37,7 @@
 /*-- BOX IMAGE & TEXT --*/
 .box {
   padding: 0;
+  border: 13px solid #fff;
 }
 
 .box .text {
@@ -264,11 +264,43 @@ visibility: visible;
   max-width: 90%;
 }
 
-.helper {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
+/* ======================================================================
+   MEDIA QUERIES
+   ====================================================================== */
+/* PHONES SMALLER THAN IPHONE*/
+    @media screen and (max-width: 650px) {
+      .massive h1 {
+        font-size: 5em;
+        margin-top: 450px;
+      }
+    }
+
+/* PHONES SMALLER THAN IPHONE LANDSCAPE ====================== */
+    @media screen and (max-width: 650px) and (orientation: landscape) {
+      .massive h1 {
+        font-size: 12em;
+        margin-top: 375px;
+        color: red;
+      }
+    }
+
+
+/* PHONES: IPHONE SIZE...ISH */
+    @media screen and (max-width: 750px) and (min-width: 650px) {
+      .massive h1 {
+        font-size: 8em;
+        margin-top: 750px;
+      }
+    }
+
+/* IPHONE LANDSCAPE ====================== */
+
+    @media screen and (max-width: 1334px) and (orientation: landscape) {
+      .massive h1 {
+        font-size: 12em;
+        margin-top: 375px;
+      }
+    }
 
 
 
